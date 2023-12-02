@@ -1,0 +1,36 @@
+html,body{
+    height: 100%;
+    
+  }
+
+  
+  .mynav li a {
+    color: #424242;
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+    padding: 8px 5px;
+    font-size: 16px;
+    -webkit-transition: all .4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all .4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    
+  }
+  
+  .mynav li a.active{
+    background: #4F5C92;
+    color: #ffff;
+  }
+  .mynav li a:hover{
+    background: #2C3453;
+    color: rgb(255, 255, 255);
+  }
+  .d-flex{
+    background-color: #EFF2FF;
+    border-width: 100px;
+  }
+  .logout{
+    text-decoration: none;
+    color: #424242;
+  }
+  
