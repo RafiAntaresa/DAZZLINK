@@ -22,8 +22,8 @@ function Modalkeluar() {
         <Modal.Header closeButton>
         </Modal.Header>
         <Modal.Body style={{textAlign: 'center' }}>
-          <p><h2>Perhatian!</h2></p>
-          <p><h3>Data Anda Belum Tersimpan</h3></p>
+        <p><h2>Perhatian!</h2></p>
+          <p><h3>Yakin mau keluar?</h3></p>
           <p>Anda akan otomatis keluar jika meneruskannya </p>
         </Modal.Body>
         <Modal.Footer> 

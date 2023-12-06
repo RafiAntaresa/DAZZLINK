@@ -1,4 +1,4 @@
-import { Navbar, Dropdown, Container, Button, ButtonGroup,  } from "react-bootstrap";
+import { Navbar,Container} from "react-bootstrap";
 import person1 from "./../asset/person.jpeg";
 import Footer2 from "../component/Footer2.jsx";
 import { useNavigate } from "react-router-dom";
@@ -18,8 +18,8 @@ const Tiket= () =>{
                             </div>
                         </div>
                         </Navbar.Brand>
-                        <Navbar.Brand onClick={() => navigate('/Landingreservasi')}>
-                        <button type="button" style={{marginRight: '6rem'}} class="btn-close " aria-label="Close"></button>
+                        <Navbar.Brand >
+                        <button type="button" style={{marginRight: '6rem'}} class="btn-close " aria-label="Close" onClick={() => navigate('/Landingreservasi')}></button>
                         </Navbar.Brand>
                         </Container>
             </Navbar>
@@ -35,7 +35,7 @@ const Tiket= () =>{
                                         <div class="container">
                                             <div class="row">
                                                 <div class="col-1 text-center p-0">
-                                                <img src={person1} alt="" width="25rem"  height="25rem"  className="bg-white  align-top  rounded-circle "  />
+                                                <img src='src/Pelanggan/asset/Barber2.png' alt="" width="25rem"  height="25rem"  className="bg-white  align-top  rounded-circle "  />
                                                 </div>
                                                 <div class="col-2 text-left p-0">
                                                 <p class="card-text fw-semibold mb-2 fs-6">Yoga</p>
@@ -64,9 +64,9 @@ const Tiket= () =>{
                                     <div class="container p-0 mt-3 mb-4">
                                         <div class="row row-cols-2">
                                             <div class="col pb-2 border-bottom">Paket</div>
-                                            <div class="col pb-2 text-end border-bottom">IDR 30,000Rp</div>
+                                            <div class="col pb-2 text-end border-bottom">Rp 30,000</div>
                                             <div class="col pt-2 border-bottom">Total</div>
-                                            <div class="col pt-2 text-end border-bottom">IDR 30,000Rp</div>
+                                            <div class="col pt-2 text-end border-bottom">Rp 30,000</div>
                                         </div>
                                     </div>
                                     <div className="container">
@@ -80,6 +80,8 @@ const Tiket= () =>{
                     </div>
                 </div>
             </div>
+            <br></br>
+            <br></br>
             <Footer2/>
         </div>
     )

@@ -26,6 +26,7 @@ const Maincontent = () =>{
                             <Dropdown.Toggle split variant="light" className="rounded-end-pill bg-white border border-dark-subtle border-start-0" id="dropdown-split-basic" />
 
                             <Dropdown.Menu>
+                            <Dropdown.Item onClick={() => navigate('/Landinguser')}>Beranda</Dropdown.Item>
                             <Dropdown.Item onClick={() => navigate('/Riwayat')}>Riwayat</Dropdown.Item>
                                 <Dropdown.Item onClick={() => navigate('/Profile')}>Profile</Dropdown.Item>
                                 <Dropdown.Item onClick={() => navigate('/Landing')}>Keluar</Dropdown.Item>
@@ -46,7 +47,7 @@ const Maincontent = () =>{
                 <svg xmlns="http://www.w3.org/2000/svg" width="0.7rem" height="0.7rem"  fill="currentColor" className="bi bi-star-fill mb-1 mx-1" viewBox="0 0 16 16">
                 <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
                 </svg> Sleman, Yogyakarta</h6>
-                <img src={baber1} 
+                <img src='src/Pelanggan/asset/R1.png'
                     width="100%"
                     height="100%"
                     
@@ -65,7 +66,7 @@ const Maincontent = () =>{
                     <div class="col">
                     <h5 class="card-title">Paket Reguler</h5>
                     <p class="card-text fs-6">30 Menit</p>
-                    <h6 class="card-title m-0">IDR 30.000 Rp</h6>
+                    <h6 class="card-title m-0">Rp 30,000</h6>
                     </div>
 
                     <div class="col p-5">
@@ -86,7 +87,7 @@ const Maincontent = () =>{
                     <div class="col">
                     <h5 class="card-title">Paket Premium</h5>
                     <p class="card-text fs-6">50 Menit</p>
-                    <h6 class="card-title m-0">IDR 40.000 Rp</h6>
+                    <h6 class="card-title m-0">Rp 40,000</h6>
                     </div>
 
                     <div class="col p-5">
@@ -104,7 +105,7 @@ const Maincontent = () =>{
                     <div class="col">
                     <h5 class="card-title">Paket Khusus</h5>
                     <p class="card-text fs-6">60 Menit</p>
-                    <h6 class="card-title m-0">IDR 50.000 Rp</h6>
+                    <h6 class="card-title m-0">Rp 50,000</h6>
                     </div>
 
                     <div class="col p-5">
@@ -122,8 +123,7 @@ const Maincontent = () =>{
             <div class="container text-center">
             <div class="row">
                 <div class="col">
-                <img
-                    src={baber1}
+                <img src='src/Pelanggan/asset/Barber1.png'
                     width="80rem"  height="80rem"
                     className="mt-5 mb-3 rounded-circle"
                     alt="React Bootstrap logo"
@@ -132,8 +132,7 @@ const Maincontent = () =>{
                 </div>
 
                 <div class="col">
-                <img
-              src={baber1}
+                <img src='src/Pelanggan/asset/Barber4.png'
               width="80rem"  height="80rem"
               className="mt-5 mb-3 rounded-circle"
               alt="React Bootstrap logo"
@@ -141,8 +140,7 @@ const Maincontent = () =>{
                 <p class="card-text fw-semibold fs-6">Doni</p>
                 </div>
                 <div class="col">
-                <img
-              src={baber1}
+                <img src='src/Pelanggan/asset/Barber2.png'
               width="80rem"  height="80rem"
               className="mt-5 mb-3 rounded-circle"
               alt="React Bootstrap logo"
@@ -150,8 +148,7 @@ const Maincontent = () =>{
                 <p class="card-text fw-semibold fs-6">Yoga</p>
                 </div>
                 <div class="col">
-                <img
-              src={baber1}
+                <img src='src/Pelanggan/asset/Barber3.png'
               width="80rem"  height="80rem"
               className="mt-5 mb-3 rounded-circle"
               alt="React Bootstrap logo"

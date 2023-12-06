@@ -57,8 +57,7 @@ const Barber = () =>{
                     </div>
 
                     <div class=" py-0 col pb-4 mx-3 rounded-3 border border-3 ">
-                        <img
-                            src={baber1}
+                    <img src='src/Pelanggan/asset/Barber2.png'
                             width="70rem"  height="70rem"
                             className="mt-4 mb-2 rounded-circle"
                             alt="React Bootstrap logo"
@@ -67,8 +66,7 @@ const Barber = () =>{
                     </div>
 
                     <div class=" py-0 pb-4 col rounded-3 border border-3 ">
-                            <img
-                                src={baber1}
+                    <img src='src/Pelanggan/asset/Barber1.png'
                                 width="70rem"  height="70rem"
                                 className="mt-4 mb-2 rounded-circle"
                                 alt="React Bootstrap logo"
@@ -91,9 +89,9 @@ const Barber = () =>{
                                     <div class="container p-0 mt-5 mb-4">
                                         <div class="row row-cols-2">
                                             <div class="col pb-2 border-bottom">Paket</div>
-                                            <div class="col pb-2 text-end border-bottom">IDR 30,000Rp</div>
+                                            <div class="col pb-2 text-end border-bottom">Rp 30,000</div>
                                             <div class="col pt-2">Total</div>
-                                            <div class="col pt-2 text-end">IDR 30,000Rp</div>
+                                            <div class="col pt-2 text-end">Rp 30,000</div>
                                         </div>
                                     </div>
                                     <div>
@@ -101,7 +99,7 @@ const Barber = () =>{
                                         <div class="container">
                                             <div class="row">
                                                 <div class="col-2 text-center p-0">
-                                                <img src={person1} alt="" width="25rem"  height="25rem"  className="bg-white  align-top  rounded-circle "  />
+                                                <img src='src/Pelanggan/asset/Barber2.png' alt="" width="25rem"  height="25rem"  className="bg-white  align-top  rounded-circle "  />
                                                 </div>
                                                 <div class="col-3 text-left p-0">
                                                 <p class="card-text fw-semibold mb-5 fs-6">Yoga</p>

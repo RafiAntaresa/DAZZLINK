@@ -21,7 +21,7 @@ function Navbarlandinguser() {
                         </Navbar.Brand>
                         <Navbar.Collapse className="justify-content-end rounded-5 " >
                         <Dropdown as={ButtonGroup} >
-                            <Button variant="light" className="rounded-start-pill border-end-0 bg-white border border-dark-subtle" >Halo Dazzlink <img src={person1} alt="" width="25rem"  height="25rem"  className="bg-white  align-top  rounded-circle "  /></Button>
+                            <Button variant="light" className="rounded-start-pill border-end-0 bg-white border border-dark-subtle" > Halo Satria  &nbsp;<img src={person1} alt="" width="25rem"  height="25rem"  className="bg-white  align-top  rounded-circle "  /></Button>
 
                             <Dropdown.Toggle split variant="light" className="rounded-end-pill bg-white border border-dark-subtle border-start-0" id="dropdown-split-basic" />
 

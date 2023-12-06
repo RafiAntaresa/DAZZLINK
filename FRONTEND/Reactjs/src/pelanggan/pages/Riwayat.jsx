@@ -29,9 +29,9 @@ const Riwayat = () =>{
                             <div className="col pb-2 mb-3 ">21-12-2023</div>
                             <div className="col ">Selesai</div>
                             <div className="col ">10.00</div>
-                            <div className="col ">Dayat</div>
+                            <div className="col ">Yoga</div>
                             <div className="col ">Reguler</div>
-                            <div className="col " onClick={() => navigate('/Detailpenilaian')} href="" style={{color: '#4F5C92'}}>Lihat Penilaian</div>
+                            <div className="col " onClick={() => navigate('/Penilaian')} style={{color: '#4F5C92', cursor: 'pointer'}}>Beri Penilaian</div>
                         </div>
                         <div className="row row-cols-6 text-center">
                             <div className="col pb-2 mb-3 ">21-12-2023</div>
@@ -39,7 +39,7 @@ const Riwayat = () =>{
                             <div className="col ">10.00</div>
                             <div className="col ">Dayat</div>
                             <div className="col ">Reguler</div>
-                            <div className="col "  onClick={() => navigate('/Detailpenilaian')}  href="" style={{color: '#4F5C92'}}>Lihat Penilaian</div>
+                            <div className="col "  onClick={() => navigate('/Detailpenilaian')}href="" style={{color: '#4F5C92', cursor: 'pointer'}}>Lihat Penilaian</div>
                         </div>
                         <div className="row row-cols-6 text-center">
                             <div className="col pb-2 mb-3 ">21-12-2023</div>
@@ -47,7 +47,7 @@ const Riwayat = () =>{
                             <div className="col ">10.00</div>
                             <div className="col ">Dayat</div>
                             <div className="col ">Khusus</div>
-                            <div className="col " onClick={() => navigate('/Detailpenilaian')}  href="" style={{color: '#4F5C92'}}>Lihat Penilaian</div>
+                            <div className="col " onClick={() => navigate('/Detailpenilaian')} href="" style={{color: '#4F5C92', cursor: 'pointer'}}>Lihat Penilaian</div>
                         </div>
                     </div>
                 </div>

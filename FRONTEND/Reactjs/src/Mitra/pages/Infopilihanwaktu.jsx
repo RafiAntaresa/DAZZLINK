@@ -91,7 +91,7 @@ function Pilihanwaktu()
         <div className="col-8"style={{marginLeft: '3rem' }}>
             <div className="mb-3">
             <label for="input">Jumlah Kursi</label>
-                <input type="text" class="form-control" id="inputHalfWidth" placeholder="Masukkan Jumlah Kursi"></input>
+                <input type="text" class="form-control" id="inputHalfWidth" placeholder="4"></input>
             </div>
             </div>
            
@@ -115,7 +115,7 @@ function Pilihanwaktu()
             <label for="input" style={{color: 'grey' }}>Kami menyarankan jarak tiap Pilihan Waktu adalah 45 menit</label>
             <div class="input-group mb-4">
              <input type="text" class="form-control" placeholder="10.00" aria-label="Recipient's username" aria-describedby="button-addon2"></input>
-             <div className='Tombol'><button class="btn" type="button" id="button-addon2"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 17 18" fill="none">
+             <div className='Tombol'><button class="btn" type="button" id="button-addon2" style={{backgroundColor: '#4F5C92' }}><svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 17 18" fill="none">
             <path d="M16.6673 10.1634H9.66732V17.1634H7.33398V10.1634H0.333984V7.83008H7.33398V0.830078H9.66732V7.83008H16.6673V10.1634Z" fill="white"/>
             </svg></button></div>
             </div>
@@ -154,7 +154,7 @@ function Pilihanwaktu()
             <div className="col-10">
             <div className="mb-3">
             <div class="d-grid gap-2 col-6 mx-auto">
-            <a onClick={() => navigate('')}  id="button" href="" style={{marginLeft: '6.5rem',width: '200px'}}>Ubah Data</a>
+            <a onClick={() => navigate('')}  id="button" href="" style={{marginLeft: '6.5rem',width: '200px'}}>Tambah Data</a>
             </div>
             </div>
             </div>

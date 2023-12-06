@@ -6,6 +6,7 @@ import Button from 'react-bootstrap/Button';
 import './Index.css'
 import { useNavigate } from "react-router-dom";
 import Logoutmitra from '../component/Logoutmitra';
+import Modalhapus from '../component/Modalhapus1';
 
 function Infopaket() 
 {
@@ -111,7 +112,7 @@ function Infopaket()
         <Col>45 mnt</Col>
         <Col>Rp 30,000</Col>
         <Col>Cukur biasa</Col>
-        <Col><a><Button style={{background: '#4F5C92' }}>Edit</Button> <Button variant="secondary">Hapus</Button></a>
+        <Col><a><Button  id='button12' onClick={() => navigate('/Editpaket')}>Edit</Button> <Button id= 'button13'><Modalhapus></Modalhapus></Button></a>
         </Col>
         </Row>
         <br></br>
@@ -120,7 +121,7 @@ function Infopaket()
         <Col>60 mnt</Col>
         <Col>Rp 75,000</Col>
         <Col>Cukur tak Biasa</Col>
-        <Col><a><Button style={{background: '#4F5C92' }}>Edit</Button> <Button variant="secondary">Hapus</Button></a>
+        <Col><a><Button id='button12' onClick={() => navigate('/Editpaket')}>Edit</Button> <Button id= 'button13'><Modalhapus></Modalhapus></Button></a>
         </Col>
         </Row>
         <br></br>
@@ -129,7 +130,7 @@ function Infopaket()
         <Col>70 mnt</Col>
         <Col>Rp 100,000</Col>
         <Col>Cukur luar biasa</Col>
-        <Col><a><Button style={{background: '#4F5C92' }}>Edit</Button> <Button variant="secondary">Hapus</Button></a>
+        <Col><a><Button id='button12' onClick={() => navigate('/Editpaket')}>Edit</Button> <Button id= 'button13'><Modalhapus></Modalhapus></Button></a>
         </Col>
         </Row>
         <br></br>

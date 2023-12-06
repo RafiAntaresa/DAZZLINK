@@ -107,28 +107,28 @@ function Infobarber() {
         <Row >
         <Col >Agus</Col>
         <Col><img src='src/Mitra/assets/barber1.png'></img></Col>
-        <Col><a><Button style={{background: '#4F5C92' }}>Edit</Button> <Button variant="secondary">Hapus</Button></a>
+        <Col><a><Button onClick={() => navigate('/Editbarber')} id='button12'>Edit</Button> <Button variant="secondary" id='button13'>Hapus</Button></a>
         </Col>
         </Row>
         <br></br>
         <Row  >
-        <Col >Dayat</Col>
+        <Col >Yoga</Col>
         <Col><img src='src/Mitra/assets/barber2.png'></img></Col>
-        <Col><a><Button style={{background: '#4F5C92' }}>Edit</Button> <Button variant="secondary">Hapus</Button></a>
+        <Col><a><Button onClick={() => navigate('/Editbarber')} id='button12'>Edit</Button> <Button variant="secondary" id='button13'>Hapus</Button></a>
         </Col>
         </Row>
         <br></br>
         <Row>
         <Col >Toni</Col>
         <Col><img src='src/Mitra/assets/barber3.png'></img></Col>
-        <Col><a><Button style={{background: '#4F5C92' }}>Edit</Button> <Button variant="secondary">Hapus</Button></a>
+        <Col><a><Button  onClick={() => navigate('/Editbarber')} id='button12'>Edit</Button> <Button variant="secondary" id='button13'>Hapus</Button></a>
         </Col>
         </Row>
         <br></br>
         <Row>
         <Col >Patar</Col>
         <Col><img src='src/Mitra/assets/barber4.png'></img></Col>
-        <Col><a><Button style={{background: '#4F5C92' }}>Edit</Button> <Button variant="secondary">Hapus</Button></a>
+        <Col><a><Button id='button12' onClick={() => navigate('/Editbarber')} >Edit</Button> <Button variant="secondary" id='button13'>Hapus</Button></a>
         </Col>
         </Row>
         <br></br>

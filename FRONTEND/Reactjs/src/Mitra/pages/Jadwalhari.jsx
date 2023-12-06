@@ -6,6 +6,7 @@ import Button from 'react-bootstrap/Button';
 import './Index.css'
 import { useNavigate } from "react-router-dom";
 import Logoutmitra from '../component/Logoutmitra';
+import Modalhapus from '../component/Modalhapus';
 
 
 function Jadwalhari() 
@@ -113,11 +114,11 @@ function Jadwalhari()
         <Row md={7}>
         <Col>1</Col>
         <Col>10.00</Col>
-        <Col>Dayat</Col>
+        <Col>Yoga</Col>
         <Col>Regular</Col>
         <Col>Satria</Col>
         <Col>ARF-01</Col>
-        <Col xs="auto"><a><Button style={{background: '#4F5C92' }} >Sukses</Button> <Button variant="secondary">Batalkan</Button></a>
+        <Col xs="auto"><a><Button   id='button12' >Sukses</Button> <Button id= 'button13'><Modalhapus></Modalhapus></Button></a>
         </Col>
         </Row>
         <br></br>
@@ -128,7 +129,7 @@ function Jadwalhari()
         <Col>Regular</Col>
         <Col>Satria</Col>
         <Col>ARF-02</Col>
-        <Col xs="auto"><a><Button style={{background: '#4F5C92' }}>Sukses</Button> <Button variant="secondary">Batalkan</Button></a>
+        <Col xs="auto"><a><Button  id='button12'  >Sukses</Button> <Button id= 'button13'><Modalhapus></Modalhapus></Button></a>
         </Col>
         </Row>
         <br></br>
@@ -139,7 +140,7 @@ function Jadwalhari()
         <Col>Regular</Col>
         <Col>Satria</Col>
         <Col>ARF-03</Col>
-        <Col xs="auto"><a><Button style={{background: '#4F5C92' }}>Sukses</Button> <Button variant="secondary">Batalkan</Button></a>
+        <Col xs="auto"><a><Button id='button12'>Sukses</Button> <Button id= 'button13'><Modalhapus></Modalhapus></Button></a>
         </Col>
         </Row>
 

@@ -20,7 +20,7 @@ function Navbarlanding() {
                         <Navbar.Collapse className="justify-content-end " >
                         <Button variant="light" onClick={() => navigate('/Daftarpelanggan')} style={{marginTop: '38px', marginRight: '110px'}} id='button2'>Daftar</Button>
                         <Button variant="light" onClick={() => navigate('/Masukpelanggan')} style={{marginTop: '38px',marginRight: '220px'}} id='button2'>Masuk</Button>
-                        <p className="mt-3"><a class=" link-offset-2 link-underline link-underline-opacity-0" href="#" onClick={() => navigate('/Masukmitra')} style={{color: '#4F5C92'}}>Masuk Sebagai Mitra</a></p>
+                      <p className="mt-3"><a class=" link-offset-2 link-underline link-underline-opacity-0" href="#"   id= 'mitra' onClick={() => navigate('/Masukmitra')}>Masuk Sebagai Mitra</a></p>
                         </Navbar.Collapse>
                     </Container>
                 </Navbar>

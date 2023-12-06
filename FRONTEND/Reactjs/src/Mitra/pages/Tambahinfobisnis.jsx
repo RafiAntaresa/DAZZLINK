@@ -78,7 +78,8 @@ function Tambahinfobisnis() {
              <input type="text" class="form-control" placeholder="Masukkan Foto" aria-label="Recipient's username" aria-describedby="button-addon2"></input>
              <div className='Tombol'><button class="btn" type="button" id="button-addon2" style={{backgroundColor: '#4F5C92' }}><svg xmlns="http://www.w3.org/2000/svg" width="19" height="20" viewBox="0 0 19 20" fill="none">
             <path d="M8.33269 14.666V5.15768L5.29935 8.19102L3.66602 6.49935L9.49935 0.666016L15.3327 6.49935L13.6994 8.19102L10.666 5.15768V14.666H8.33269ZM2.49935 19.3327C1.85768 19.3327 1.30818 19.104 0.850851 18.6467C0.393517 18.1894 0.16524 17.6402 0.166018 16.9993V13.4993H2.49935V16.9993H16.4994V13.4993H18.8327V16.9993C18.8327 17.641 18.604 18.1905 18.1467 18.6479C17.6894 19.1052 17.1402 19.3335 16.4994 19.3327H2.49935Z" fill="#F2F2F2"/>
-            </svg></button></div>
+            </svg></button>
+            </div>
         
             </div>
             </div>
@@ -94,7 +95,7 @@ function Tambahinfobisnis() {
             <div className="col-10">
             <div className="mb-3">
             <div class="d-grid gap-2 col-6 mx-auto"  >        
-                <a onClick={() => navigate('/Tambahinfobarber')}  id="button" href="" style={{marginLeft: '10rem'}}>Selanjutnya</a>
+                <a onClick={() => navigate('/Tambahinfobarber')}  id="button" style={{marginLeft: '10rem', cursor: 'pointer'}}> Selanjutnya</a>
             </div>
             </div>
             </div>

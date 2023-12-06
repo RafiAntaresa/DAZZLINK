@@ -28,6 +28,9 @@ import Detailpenilaian from './Pelanggan/pages/Detailpenilaian.jsx';
 import Ubah from './pelanggan/pages/Ubah.jsx';
 import Modalpaket from './Mitra/pages/Mtambahpaket.jsx';
 import Modalbarber from './Mitra/pages/Mtambahbarber.jsx';
+import Penilaian from './pelanggan/pages/Penilaian.jsx';
+import Editbarber from './Mitra/pages/Editbarber.jsx';
+import Editpaket from './Mitra/pages/Editpaket.jsx';
 
 
 
@@ -67,6 +70,9 @@ function App() {
         <Route path='/Ubah' element={<Ubah/>}/>
         <Route path='/Modalpaket' element={<Modalpaket/>}/>
         <Route path='/Modalbarber' element={<Modalbarber/>}/>
+        <Route path='/Penilaian' element={<Penilaian/>}/>
+        <Route path='/Editpaket' element={<Editpaket/>}/>
+        <Route path='/Editbarber' element={<Editbarber/>}/>
       </Routes>
     </Router>
   )

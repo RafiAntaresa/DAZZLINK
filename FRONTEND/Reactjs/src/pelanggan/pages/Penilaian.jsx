@@ -1,9 +1,10 @@
-import { Navbar, Dropdown, Container, } from "react-bootstrap";
-import baber1 from "./../asset/baber1.jpg";
+import { Navbar, Container } from "react-bootstrap";
 import Footer from "../component/Footer.jsx";
 import { useNavigate } from "react-router-dom";
+import Nilai from "./Nilai";
+import Modalcancel from "../component/modalcancel";
 const Penilaian= () =>{
-    const navigate = useNavigate()
+    const navigate = useNavigate ()
     return (
         <div>
             <div className="col-12">
@@ -20,8 +21,8 @@ const Penilaian= () =>{
                             </div>
                         </div>
                         </Navbar.Brand>
-                        <Navbar.Brand href="#home justify-content-end ">
-                        <button type="button" style={{marginRight: '6rem'}} class="btn-close " aria-label="Close"></button>
+                        <Navbar.Brand >
+                        <Modalcancel></Modalcancel>
                         </Navbar.Brand>
                         </Container>
             </Navbar>
@@ -35,48 +36,10 @@ const Penilaian= () =>{
                                         
                                         <div className="row  justify-content-md-center mb-3">
                                             <div className="col-5">
-                                            <img src={baber1} 
-                                            width="100%"
-                                            height="100%"
-                                            className="d-inline-block  rounded"
-                                            alt="" 
-                                        />
+                                            <Nilai></Nilai>
                                         </div>
                                         </div>
-                                        <h4 className="text-center card-title mb-2 fw-bold">Penilaian</h4>
-                                        <div className="row mb-4 row-cols-5 justify-content-md-center">
-                                            <div className="col-1 btn">                                    
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="1.8rem" height="1.8rem"  fill="currentColor" className="bi bi-star-fill " viewBox="0 0 16 16">
-                                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                                                </svg>
-                                            </div>
-                                            <div className="col-1 btn">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="1.8rem" height="1.8rem"  fill="currentColor" className="bi bi-star-fill " viewBox="0 0 16 16">
-                                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                                                </svg>
-                                            </div>
-                                            <div className="col-1 btn">                                                
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="1.8rem" height="1.8rem"  fill="currentColor" className="bi bi-star-fill " viewBox="0 0 16 16">
-                                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                                                </svg>
-
-                                            </div>
-                                            <div className="col-1 btn">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="1.8rem" height="1.8rem"  fill="currentColor" className="bi bi-star-fill " viewBox="0 0 16 16">
-                                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                                                </svg>
-                                            </div>
-                                            <div className="col-1 btn">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="1.8rem" height="1.8rem"  fill="currentColor" className="bi bi-star-fill " viewBox="0 0 16 16">
-                                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                                                </svg>
-                                            </div>
-                                        </div>
-                                        <div className="">
-                                            <p style={{marginLeft:'8rem'}} class=" fw-semibold fs-6 mb-1">Komentar</p>
-                                            <input style={{width:'25rem', marginLeft:'7rem',  height:'4rem'}} type="text" class=" form-control border-dark-subtle rounded-3 border-2  border" id="exampleFormControlInput1" placeholder=""/> 
-                                        </div>
-
+                                        
                                     </div>
                                 </div>
                             </div>

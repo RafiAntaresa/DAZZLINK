@@ -50,7 +50,7 @@ const Reservasi = () =>{
                     <div class="col "> 
                     <h5 class="card-title">Paket Reguler</h5>
                     <p class="card-text fs-6">30 Menit</p>
-                    <h6 class="card-title">IDR 30.000 Rp</h6>
+                    <h6 class="card-title">Rp 30,000</h6>
                     </div>
 
                     <div class="col p-5">
@@ -68,7 +68,7 @@ const Reservasi = () =>{
                     <div class="col">
                     <h5 class="card-title">Paket Premium</h5>
                     <p class="card-text fs-6">50 Menit</p>
-                    <h6 class="card-title m-0">IDR 40.000 Rp</h6>
+                    <h6 class="card-title m-0">Rp 40,000</h6>
                     </div>
 
                     <div class="col p-5">
@@ -86,7 +86,7 @@ const Reservasi = () =>{
                     <div class="col">
                     <h5 class="card-title">Paket Khusus</h5>
                     <p class="card-text fs-6">60 Menit</p>
-                    <h6 class="card-title m-0">IDR 50.000 Rp</h6>
+                    <h6 class="card-title m-0">Rp 50,000</h6>
                     </div>
 
                     <div class="col p-5">
@@ -110,9 +110,9 @@ const Reservasi = () =>{
                                     <div class="container p-0 mt-5 mb-4">
                                         <div class="row row-cols-2">
                                             <div class="col pb-2 border-bottom">Paket</div>
-                                            <div class="col pb-2 text-end border-bottom">IDR 30,000Rp</div>
+                                            <div class="col pb-2 text-end border-bottom">Rp 30,000</div>
                                             <div class="col pt-2">Total</div>
-                                            <div class="col pt-2 text-end">IDR 30,000Rp</div>
+                                            <div class="col pt-2 text-end">Rp 30,000</div>
                                         </div>
                                     </div>
                                     <div class="d-grid gap-2" >

@@ -105,7 +105,7 @@ function Riwayatmitra()
         <Row md={7}>
         <Col>1</Col>
         <Col>10.00</Col>
-        <Col>Dayat</Col>
+        <Col>Yoga</Col>
         <Col>Regular</Col>
         <Col>Satria</Col>
         <Col>ARF-01</Col>

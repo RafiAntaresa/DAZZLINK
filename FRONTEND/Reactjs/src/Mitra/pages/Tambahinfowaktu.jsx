@@ -102,7 +102,7 @@ function Tambahinfowaktu() {
             <div className="col-10" >
             <div className="mb-3">
             <div class="d-grid gap-2 col-6 mx-auto">
-            <a id="button" style={{marginLeft: '10rem'}} onClick={handleShow}>Selesai</a>
+            <a id="button" style={{marginLeft: '10rem'}} onClick={handleShow} href="#">Selesai</a>
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>

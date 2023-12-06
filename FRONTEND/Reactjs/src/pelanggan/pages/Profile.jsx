@@ -18,8 +18,8 @@ const Profile = () =>{
                         </div>
                         <div className="row row-cols-2 ">
                             <div style={{height:'13.6rem', width:'15rem' , marginLeft:'10rem', }} className="col-5 pt-3 ps-4 me-2   border rounded-3 border-2 ">
-                                <img
-                                src={profile}
+                            <img src='src/Pelanggan/asset/person.jpeg'
+
                                 width="180rem"  height="180rem"
                                 style={{objectFit:'cover'}}
                                 className=" border border-5  rounded-circle"
